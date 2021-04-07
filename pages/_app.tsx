@@ -1,9 +1,11 @@
 import App, { AppContext, AppProps } from "next/app"; // 타입 임포트
 import { Fragment } from "react";
+import { GlobalStyle } from "../style/GlobalStyle";
 
 const DstApp = ({ Component, pageProps }: AppProps) => {
   return (
     <Fragment>
+      <GlobalStyle />
       <Component {...pageProps} />
     </Fragment>
   );
