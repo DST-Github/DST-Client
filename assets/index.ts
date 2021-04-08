@@ -1,1 +1,5 @@
-export {}
+export { default as Logo } from './svg/Logo'
+export { default as Menu } from './svg/Menu'
+export { default as AddIcon } from './svg/AddIcon'
+export { default as FileIcon } from './svg/FileIcon'
+export { default as GithubIcon } from './svg/GithubIcon'
